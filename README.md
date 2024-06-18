@@ -8,6 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-<a target="_blank" href="https://icons8.com/icon/RZUWLI9aYLdc/alarm-clock">Clock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-freepik
+      <a href="https://www.freepik.com/icon/">Icon by Freepik</a>
