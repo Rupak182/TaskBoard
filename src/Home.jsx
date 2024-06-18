@@ -22,7 +22,7 @@ const Home = () => {
 
   useEffect(() => {
     const getData = async () => {
-      let res = await axios.post("https://taskboard-q5mu.onrender.com/view", {
+      let res = await axios.post("https://taskboard-q5mu.onrender.com/board/view", {
         id: '0'
       });
 
@@ -50,7 +50,7 @@ const Home = () => {
     let newData =data.filter((d)=>d._id!=updateID);
     newData = [...newData,inputs];
 
-    let res = await axios.put("https://taskboard-q5mu.onrender.com/update",{
+    let res = await axios.put("https://taskboard-q5mu.onrender.com/board/update",{
       id:idRef.current,
       tasks:newData,
       board:board
@@ -72,7 +72,7 @@ const Home = () => {
 
         let newData =data.filter((d)=>d._id!=updateID);
 
-        let res = await axios.put("https://taskboard-q5mu.onrender.com/update",{
+        let res = await axios.put("https://taskboard-q5mu.onrender.com/board/update",{
           id:idRef.current,
           tasks:newData,
           board:board
