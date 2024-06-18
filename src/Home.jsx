@@ -99,7 +99,12 @@ const Home = () => {
       <Navbar/>
       <Boxes modalRef={modalRef}/>
       <Dialog  handleClose={handleClose} handleDelete={handleDelete} handleUpdate={handleUpdate}  modalRef={modalRef}/>
+
+      <div className='text-xs'>
+      <a href="https://www.freepik.com/icon/">Icon by Freepik</a>
+      </div>
     </div>
+    
   )
 }
 
