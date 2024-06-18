@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 
-      <a href="https://www.freepik.com/icon/">Icon by Freepik</a>
+Icon by Freepik
